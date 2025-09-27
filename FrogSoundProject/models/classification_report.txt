@@ -1,0 +1,71 @@
+                                    precision    recall  f1-score   support
+
+                  acris_blanchardi       0.33      0.50      0.40         2
+                   acris_crepitans       0.75      1.00      0.86         3
+                     acris_gryllus       0.33      1.00      0.50         1
+                  agalychnis_annae       1.00      1.00      1.00         8
+               anaxyrus_americanus       1.00      1.00      1.00         5
+                  anaxyrus_fowleri       0.00      0.00      0.00         0
+               anaxyrus_woodhousii       1.00      1.00      1.00         1
+                    anstisia_lutea       1.00      1.00      1.00         2
+          arthroleptella_villiersi       0.00      0.00      0.00         0
+                  assa_darlingtoni       1.00      1.00      1.00         1
+                     babina_holsti       1.00      1.00      1.00         1
+bealer_s_ferry_pond_page_county_va       1.00      1.00      1.00         4
+             cacosternum_australis       1.00      1.00      1.00         1
+             chalcorana_chalconota       1.00      1.00      1.00         2
+             crinia_parinsignifera       1.00      0.71      0.83         7
+                  crinia_signifera       0.33      0.25      0.29         4
+          dendropsophus_ebraccatus       0.00      0.00      0.00         0
+             dendropsophus_minutus       0.00      0.00      0.00         0
+           dendropsophus_phlebodes       1.00      0.33      0.50         3
+           eleutherodactylus_campi       0.40      0.50      0.44         4
+           eleutherodactylus_coqui       0.33      1.00      0.50         1
+    eleutherodactylus_planirostris       1.00      1.00      1.00         1
+         gastrophryne_carolinensis       1.00      0.50      0.67         2
+             gastrophryne_olivacea       1.00      1.00      1.00         5
+                 hyla_chrysoscelis       0.50      0.50      0.50         2
+                      hyla_cinerea       0.80      0.57      0.67         7
+                 hyla_meridionalis       1.00      1.00      1.00         2
+                    hyla_squirella       0.25      0.50      0.33         2
+                   hyla_versicolor       1.00      0.75      0.86         8
+                hylorina_sylvatica       1.00      0.67      0.80         3
+                incilius_nebulifer       1.00      1.00      1.00         3
+                  kaloula_borealis       1.00      1.00      1.00         1
+         leptodactylus_melanonotus       0.33      1.00      0.50         1
+           limnodynastes_dumerilii       1.00      1.00      1.00         4
+               limnodynastes_grayi       1.00      1.00      1.00         1
+             limnodynastes_peronii       0.25      0.50      0.33         2
+        limnodynastes_tasmaniensis       0.50      0.50      0.50         2
+           lithobates_catesbeianus       1.00      0.88      0.93         8
+              lithobates_clamitans       0.75      0.43      0.55         7
+               litoria_calliscelis       1.00      1.00      1.00         3
+                   litoria_ewingii       0.67      0.50      0.57         4
+                    litoria_fallax       0.80      0.80      0.80         5
+                   litoria_inermis       1.00      1.00      1.00         5
+                    litoria_nasuta       1.00      1.00      1.00         3
+                microhyla_fissipes       1.00      1.00      1.00         5
+             microhyla_okinavensis       1.00      1.00      1.00         3
+              nidirana_adenopleura       1.00      0.60      0.75         5
+        osteopilus_septentrionalis       1.00      0.50      0.67         2
+                 pelophylax_perezi       0.50      1.00      0.67         2
+                  pleurodema_thaul       1.00      1.00      1.00         2
+          polypedates_megacephalus       0.67      0.67      0.67         3
+              poyntonia_paludicola       0.80      1.00      0.89         4
+              pristimantis_wagteri       0.50      1.00      0.67         1
+               pseudacris_crucifer       0.71      0.83      0.77         6
+               pseudacris_maculata       1.00      0.71      0.83         7
+                pseudacris_regilla       0.33      0.33      0.33         3
+       pseudophilautus_wynaadensis       1.00      1.00      1.00         2
+            pseudophryne_australis       0.83      0.83      0.83         6
+              ranoidea_phyllochroa       1.00      1.00      1.00         3
+                 scinax_boulengeri       1.00      1.00      1.00         3
+            sclerophrys_gutturalis       1.00      1.00      1.00         1
+              sclerophrys_pardalis       1.00      1.00      1.00         5
+               sylvirana_guentheri       0.60      0.75      0.67         4
+                tlalocohyla_loquax       1.00      1.00      1.00         2
+               zhangixalus_arvalis       0.50      0.50      0.50         2
+
+                          accuracy                           0.80       202
+                         macro avg       0.77      0.77      0.75       202
+                      weighted avg       0.85      0.80      0.81       202

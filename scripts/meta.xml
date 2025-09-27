@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<archive metadata="eml.xml" xmlns="http://rs.tdwg.org/dwc/text/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <core encoding="UTF-8" fieldsEnclosedBy="&quot;" fieldsTerminatedBy="," linesTerminatedBy="&#10;" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
+        <files>
+            <location>Occurrence.txt</location>
+        </files>
+        <id index="0"/>
+        <field index="1" term="http://rs.tdwg.org/dwc/terms/occurrenceID"/>
+        <field index="2" term="http://rs.tdwg.org/dwc/terms/catalogNumber"/>
+        <field index="3" term="http://rs.tdwg.org/dwc/terms/basisOfRecord"/>
+        <field index="4" term="http://rs.tdwg.org/dwc/terms/collectionCode"/>
+        <field index="5" term="http://rs.tdwg.org/dwc/terms/dynamicProperties"/>
+        <field index="6" term="http://rs.tdwg.org/dwc/terms/otherCatalogNumbers"/>
+        <field index="7" term="http://rs.tdwg.org/dwc/terms/genus"/>
+        <field index="8" term="http://rs.tdwg.org/dwc/terms/specificEpithet"/>
+        <field index="9" term="http://rs.tdwg.org/dwc/terms/infraspecificEpithet"/>
+        <field index="10" term="http://rs.tdwg.org/dwc/terms/scientificName"/>
+        <field index="11" term="http://rs.tdwg.org/dwc/terms/taxonRank"/>
+        <field index="12" term="http://rs.tdwg.org/dwc/terms/kingdom"/>
+        <field index="13" term="http://rs.tdwg.org/dwc/terms/family"/>
+        <field index="14" term="http://rs.tdwg.org/dwc/terms/higherClassification"/>
+        <field index="15" term="http://rs.tdwg.org/dwc/terms/nomenclaturalCode"/>
+        <field index="16" term="http://rs.tdwg.org/dwc/terms/identificationRemarks"/>
+        <field index="17" term="http://rs.tdwg.org/dwc/terms/vernacularName"/>
+        <field index="18" term="http://rs.tdwg.org/dwc/terms/decimalLongitude"/>
+        <field index="19" term="http://rs.tdwg.org/dwc/terms/decimalLatitude"/>
+        <field index="20" term="http://rs.tdwg.org/dwc/terms/geodeticDatum"/>
+        <field index="21" term="http://rs.tdwg.org/dwc/terms/country"/>
+        <field index="22" term="http://rs.tdwg.org/dwc/terms/locality"/>
+        <field index="23" term="http://rs.tdwg.org/dwc/terms/verbatimElevation"/>
+        <field index="24" term="http://rs.tdwg.org/dwc/terms/recordedBy"/>
+        <field index="25" term="http://rs.tdwg.org/dwc/terms/eventDate"/>
+        <field index="26" term="http://rs.tdwg.org/dwc/terms/eventTime"/>
+        <field index="27" term="http://rs.tdwg.org/dwc/terms/verbatimEventDate"/>
+        <field index="28" term="http://rs.tdwg.org/dwc/terms/fieldNotes"/>
+        <field index="29" term="http://rs.tdwg.org/dwc/terms/behavior"/>
+        <field index="30" term="http://rs.tdwg.org/dwc/terms/sex"/>
+        <field index="31" term="http://rs.tdwg.org/dwc/terms/lifeStage"/>
+        <field index="32" term="http://rs.tdwg.org/dwc/terms/preparations"/>
+        <field index="33" term="http://purl.org/dc/terms/references"/>
+        <field index="34" term="http://rs.tdwg.org/dwc/terms/associatedTaxa"/>
+        <field index="35" term="http://purl.org/dc/terms/rightsHolder"/>
+        <field index="36" term="http://purl.org/dc/terms/license"/>
+    </core>
+    <extension encoding="UTF-8" fieldsEnclosedBy="&quot;" fieldsTerminatedBy="," linesTerminatedBy="&#10;" ignoreHeaderLines="1" rowType="http://rs.tdwg.org/ac/terms/Multimedia">
+        <files>
+            <location>Multimedia.txt</location>
+        </files>
+        <coreid index="0"/>
+        <field index="1" term="http://rs.tdwg.org/ac/terms/associatedObservationReference"/>
+        <field index="2" term="http://purl.org/dc/terms/identifier"/>
+        <field index="3" term="http://purl.org/dc/elements/1.1/type"/>
+        <field index="4" term="http://ns.adobe.com/xap/1.0/Rating"/>
+        <field index="5" term="http://ns.adobe.com/xap/1.0/rights/Owner"/>
+        <field index="6" term="http://purl.org/dc/elements/1.1/creator"/>
+        <field index="7" term="http://rs.tdwg.org/ac/terms/accessURI"/>
+        <field index="8" term="http://purl.org/dc/terms/format"/>
+        <field index="9" term="http://rs.tdwg.org/ac/terms/variantLiteral"/>
+        <field index="10" term="http://purl.org/dc/terms/description"/>
+        <field index="11" term="http://rs.tdwg.org/ac/terms/caption"/>
+        <field index="12" term="http://rs.tdwg.org/ac/terms/resourceCreationTechnique"/>
+        <field index="13" term="http://rs.tdwg.org/ac/terms/captureDevice"/>
+        <field index="14" term="http://rs.tdwg.org/ac/terms/physicalSetting"/>
+        <field index="15" term="http://purl.org/dc/terms/rights"/>
+    </extension>
+</archive>

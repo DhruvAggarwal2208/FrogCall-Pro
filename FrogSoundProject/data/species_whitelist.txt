@@ -1,0 +1,10 @@
+acris_blanchardi
+pseudacris_maculata
+pseudacris_crucifer
+hyla_versicolor
+hyla_cinerea
+hyla_squirella
+lithobates_clamitans
+lithobates_catesbeianus
+anaxyrus_americanus
+gastrophryne_olivacea

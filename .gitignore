@@ -1,0 +1,45 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Python / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+frog-env/
+FrogSoundProject/models/.pkg-venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Big data / artifacts
+FrogSoundProject/data/raw/
+FrogSoundProject/data/processed/
+FrogSoundProject/data/raw_audio/
+archives/
+downloads/
+ffmpeg-7.1.1-essentials_build/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Audio blobs
+*.wav
+*.flac
+*.mp3
+
+# Old model formats (keep .pt/.pth unless using LFS)
+frog_classifier_model.h5
+frog_classifier_model.keras
+*.h5
+*.keras

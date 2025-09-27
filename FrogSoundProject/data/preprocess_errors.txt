@@ -1,0 +1,47 @@
+FrogSoundProject\data\raw\anuraset\anuraset\audio\INCT17\INCT17_20200323_001500_28_31.wav: EOFError()
+Traceback (most recent call last):
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\librosa\core\audio.py", line 176, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\librosa\core\audio.py", line 209, in __soundfile_load
+    context = sf.SoundFile(path)
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\soundfile.py", line 690, in __init__
+    self._file = self._open(file, mode_int, closefd)
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\soundfile.py", line 1265, in _open
+    raise LibsndfileError(err, prefix="Error opening {0!r}: ".format(self.name))
+soundfile.LibsndfileError: Error opening 'FrogSoundProject\\data\\raw\\anuraset\\anuraset\\audio\\INCT17\\INCT17_20200323_001500_28_31.wav': Format not recognised.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\dhruv\OneDrive\Desktop\Frog Sound Project\FrogSoundProject\src\preprocess.py", line 86, in main
+    mfcc = mfcc_from_file(in_path)
+  File "c:\Users\dhruv\OneDrive\Desktop\Frog Sound Project\FrogSoundProject\src\preprocess.py", line 27, in mfcc_from_file
+    y, sr = librosa.load(path, sr=SR, mono=True)
+            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\librosa\core\audio.py", line 184, in load
+    y, sr_native = __audioread_load(path, offset, duration, dtype)
+                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\decorator.py", line 235, in fun
+    return caller(func, *(extras + args), **kw)
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\librosa\util\decorators.py", line 63, in __wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\librosa\core\audio.py", line 240, in __audioread_load
+    reader = audioread.audio_open(path)
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\audioread\__init__.py", line 127, in audio_open
+    return BackendClass(path)
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\audioread\rawread.py", line 62, in __init__
+    self._file = aifc.open(self._fh)
+                 ~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\aifc\__init__.py", line 959, in open
+    return Aifc_read(f)
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\aifc\__init__.py", line 369, in __init__
+    self.initfp(f)
+    ~~~~~~~~~~~^^^
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\aifc\__init__.py", line 325, in initfp
+    chunk = Chunk(file)
+  File "C:\Users\dhruv\AppData\Local\Programs\Python\Python313\Lib\site-packages\chunk\__init__.py", line 73, in __init__
+    raise EOFError
+EOFError
+
